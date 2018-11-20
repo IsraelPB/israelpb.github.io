@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+/* html, body {
+    height: 100%;
+} */
+
+/* .backGroundi{
+    background-image: url("../images/myBackGround.jpg");
+    background-size: cover;
+    height: 700px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    
+} */
+
+
+body {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("../images/myBackGround.jpg");
+    background-size: cover;
+   
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.container, .container-fluid {
+    
+    background-color: rgb(13, 13, 172);
+    color: #ddd;
+    padding-bottom: 20px;
+    border: solid 3px;
+    margin-top: 60px;
+    border-radius: 15px;
+
+    opacity: 0.9;
+    padding-top: 20px;
+}
+
+#regreso{
+    background-color: transparent;
+    margin-top: 300px;
+    border:none;
+    font-size: 20px;
+    
+    margin-right: 100px;
+
+}
+
+
+#click-to-start {
+    background-color: transparent;
+    margin-top: 200px;
+    border:none;
+    font-size: 20px;
+    margin-left: 550px;
+   
+}
+
+#play-again {
+    background-color: rgb(65, 64, 64);
+    margin: 0px 20px 20px 20px;
+    font-size: 1.75rem;
+    border: solid 3px;
+    border-color: #ddd;
+    border-radius: 15px;
+    color:#ddd;
+}
+
+#question-area {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(13, 13, 172);
+    color: #ddd;
+    padding-bottom: 20px;
+    border: solid 3px;
+    border-radius: 15px;
+
+}
+
+.choices {
+    background-color: gray;
+    border: solid 3px;
+    border-radius: 15;
+    border-color: #ddd;
+    margin-left: 10px;
+}
+
+#pic {
+    margin-bottom: 20px;
+    max-height: 200px;
+}
+
+.correct-answer {
+    font-size: 1.25rem;
+}
+
+#correct-answer-id {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.75rem;
+}
+
+#time-remaining {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+#timer {
+    color: rgb(202, 17, 216);
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.musicButtons {
+    margin-right: 650px;
+    background-color: transparent;
+    margin-top: 250px;
+    
+}
+#musicaAudio, #stopMusic{
+    background-color: transparent;
+    font-size: 12px;
+    border: none;
+    border-color: none;
+}
+

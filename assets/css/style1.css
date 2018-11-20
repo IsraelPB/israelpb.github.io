@@ -1,0 +1,123 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+/* background */
+    body {
+      background-image: url('https://wallpaperaccess.com/full/717318.jpg')
+    }
+
+
+
+/* // Small devices */
+@media screen  and (max-width: 640px) { 
+
+}
+
+/* // Medium devices  */
+@media screen  and (max-width: 768px) { 
+
+ }
+
+/* // Large devices  */
+@media screen  and (max-width: 980px) { 
+
+}
+
+.jumbotron {
+    
+    background-color: rgb(61, 61, 61);
+}
+
+p ,h1 {
+    color:whitesmoke;
+}
+
+
+#bio-image{
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+}
+  
+footer{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    position:bottom;
+    color: floralwhite;
+}
+
+h5{
+    color: rgba(188, 192, 218, 0.952);
+}
+
+
+
+
+/* separation */
+
+
+
+footer {
+  
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+   
+    height: 50px;
+  }
+  
+  h3, h2 {
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eeeeee;
+  }
+
+.work {
+    border: 2px gray;
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: rgb(88, 88, 88);
+    border-bottom: 0;
+  }
+  
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+  

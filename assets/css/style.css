@@ -1,80 +1,56 @@
-body {
-    float: left;
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    line-height: 180%;
-    color: #020202;
-    width: 960px;
-    height: 960px;
-    background: #f1eeee;
-    border-style: solid;
-    border-width: 0;
-    border-color: #f1eeee;
-}
-/* namebox */
-header {float: left;
-background: #4aaaa5;
-color: #ffffff;
-border: #cccccc;
-width:20%;
-}
-/* name */
-h1 {
 
-    float: left;
-    padding: 0px;
-    margin-left: 135;
-    margin-bottom: 20px;
-    font-size: 18px;
-    text-align: center;
-    background: #4aaaa5;
-}
-/* about me */
-h2 {
-    float: left;
-    font-size: 18px;
-    margin-left: 200px;
-    line-height: 150%;
-text-align: right;
-}      
 
-.container {
-    width: 960px;
-    margin: 0;
-    background: #cccccc;
+* {
+    box-sizing: border-box;
+  }
+  
+/* background */
+    body {
+      background-image: url('https://wallpaperaccess.com/full/717318.jpg')
+    }
 
+
+
+/* // Small devices */
+@media screen  and (max-width: 640px) { 
 
 }
 
+/* // Medium devices  */
+@media screen  and (max-width: 768px) { 
+
+ }
+
+/* // Large devices  */
+@media screen  and (max-width: 980px) { 
+
+}
+
+.jumbotron {
+    
+    background-color: rgb(61, 61, 61);
+}
+
+p ,h1 {
+    color:whitesmoke;
+}
 
 
 #bio-image{
-    float: left;
-}
-/* box of main bio and contact info */
-#main-bio {
-    /* width: 50%; */
-}
-/* about me links */
-#contact-info {
-    float: left;
-    width: 78.1%;
-    background-color: #9c5454;
-
-}
-
-/* image */
-#bio-image {
-    width: 250px;
-    height: 200px;
+    height: 150px;
+    width: 150px;
     margin-right: 20px;
 }
+  
+footer{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    position:bottom;
+    color: floralwhite;
+}
 
-section {
-    padding: 10px;
-    margin-bottom: 20px;
-    background: rgb(209, 205, 204);
-    border-width: 2px;
-    border-color: #020202;
+h5{
+    color: rgba(188, 192, 218, 0.952);
+}
